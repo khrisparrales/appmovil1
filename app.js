@@ -58,7 +58,7 @@ function cerrarPopup() {
 }
 
 function add(id_imdb) {
-    $.getJSON('http://www.omdbapi.com/?i=' + id_imdb + '&apikey=f1d6c99').then(function(response) {
+    $.getJSON('https://www.omdbapi.com/?i=' + id_imdb + '&apikey=f1d6c99').then(function(response) {
 
             console.log(response);
 
